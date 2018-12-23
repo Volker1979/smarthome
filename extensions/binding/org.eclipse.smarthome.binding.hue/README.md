@@ -194,7 +194,7 @@ Dimmer	Light2_Dimmer		{ channel="hue:0220:1:bulb2:brightness" }
 Dimmer	Light2_ColorTemp	{ channel="hue:0220:1:bulb2:color_temperature" }
 
 // Light Level Sensor
-Number:Illuminance LightLevelSensorIlluminance { "channel="hue:0106:light-level-sensor:illuminance" }
+Number:Illuminance LightLevelSensorIlluminance { channel="hue:0106:light-level-sensor:illuminance" }
 
 // Motion Sensor
 Switch   MotionSensorPresence     { channel="hue:0107:motion-sensor:presence" }
@@ -203,7 +203,7 @@ Number   MotionSensorBatteryLevel { channel="hue:0107:motion-sensor:battery_leve
 Switch   MotionSensorLowBattery   { channel="hue:0107:motion-sensor:battery_low" }
 
 // Temperature Sensor
-Number:Temperature TemperatureSensorTemperature { "channel="hue:0302:temperature-sensor:temperature" }
+Number:Temperature TemperatureSensorTemperature { channel="hue:0302:temperature-sensor:temperature" }
 ```
 
 Note: The bridge ID is in this example **1** but can be different in each system.
